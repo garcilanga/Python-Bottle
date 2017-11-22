@@ -1,6 +1,6 @@
 # Servidor API REST Bottle
 
-![Bottle](logo_bottle.png)
+![Bottle](images/logo_bottle.png)
 
 ## Índice
 1. Introducción, API REST
