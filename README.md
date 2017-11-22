@@ -101,7 +101,7 @@ Las imágenes siguientes muestran las ventanas del navegador para las dos petici
 
 La lista de referencias contiene enlaces con información más extensa para implementar serviciosRESTfull más complejos.
 
-## 5. Referencias
+## 5. Referencias y más información
 
 - Bottle: Python Web Framework
     - https://bottlepy.org/docs/dev/
