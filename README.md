@@ -29,7 +29,7 @@ Una [comparativa](http://mindref.blogspot.com.es/2012/09/python-fastest-web-fram
 
 ![Comparativa frameworks API REST](images/api_rest_comparative.png)
 
-Otras [pruebas](https://www.toptal.com/bottle/building-a-rest-api-with-bottle-framework) realizadas por Leandro Lima en servidores virtuales de DigitalOcean, con servidores web uWSGI y Bottle arrojaron como resultado **respuestas de tan solo 140μs por solicitud**.
+Otras [pruebas](https://www.toptal.com/bottle/building-a-rest-api-with-bottle-framework) realizadas en servidores virtuales de DigitalOcean, con servidores web uWSGI y Bottle arrojaron como resultado **respuestas de tan solo 140μs por solicitud**.
 
 Bottle cuenta con los siguientes servicios:
 - **Enrutamiento**: mapeo de llamada a funciones con soporte para urls limpias y dinámicas.
