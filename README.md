@@ -64,7 +64,6 @@ En primer lugar hay que crear el fichero python con la lógica del servidor y el
 ```
 from bottle import route, run
 
-
 @route('/')
 app = application = bottle.default_app()@route('/hello/<name>')
 def greet(name='Stranger'):
