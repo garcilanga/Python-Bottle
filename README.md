@@ -45,12 +45,21 @@ Para obtener la última versión del framework **Bottle** se puede utilizar la u
 
 Se puede descargar e instalar Bottle en un sistema operativo Ubuntu 16.04 Xenial por línea de comandos abriendo un terminal y ejecutando las siguientes instrucciones:
 
+**Python 2.7**:
+
 ```
 # Instalar pip (en caso de que no esté ya instalado)
 apt-get install python-pip
 
 # Instalar Bottle
 pip install bottle
+```
+
+**Python 3.6**:
+
+```
+# Instalar Bottle
+pip3.6 install bottle
 ```
 
 ## 4. Aplicación de ejemplo con Python y Bottle
@@ -65,7 +74,9 @@ En primer lugar hay que crear el fichero python con la lógica del servidor y el
 from bottle import route, run
 
 @route('/')
-app = application = bottle.default_app()@route('/hello/<name>')
+app = application = bottle.default_app()
+
+@route('/hello/<name>')
 def greet(name='Stranger'):
     return '<h1>Hello %s, how are you?</h1>' % name
 
