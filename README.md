@@ -74,14 +74,13 @@ En primer lugar hay que crear el fichero python con la lógica del servidor y el
 from bottle import route, run
 
 @route('/')
-app = application = bottle.default_app()
-
 @route('/hello/<name>')
-def greet(name='Stranger'):
+def hello(name='Stranger'):
     return '<h1>Hello %s, how are you?</h1>' % name
 
 if __name__ == '__main__':
-    run(host='localhost', port=8888, debug=True)
+    run(host='localhost', port=8080, debug=True)
+
 ```
 
 Con _@route(...)_ se especifican las dos url's, la primera es la estática (/) y la segunda la dinámica (/hello/<name>).
