@@ -85,9 +85,9 @@ if __name__ == '__main__':
 
 Con _@route(...)_ se especifican las dos url's, la primera es la estática (/) y la segunda la dinámica (/hello/<name>).
 
-La función pyhton _greet_ se encarga de construir el mensaje según que la url contenga o no un valor para el parámetro nombre.
+La función pyhton _hello_ se encarga de construir el mensaje según que la url contenga o no un valor para el parámetro nombre.
 
-La última línea del fichero especifica el host (localhost) y el puerto (8888) donde se servirán las peticiones.
+La última línea del fichero especifica el host (localhost) y el puerto (8080) donde se servirán las peticiones.
 
 Después se ejecuta por línea de comandos la siguiente instrucción para tener disponible el servidor:
 ```
@@ -96,8 +96,8 @@ python myserver.py
 
 Por último, se abre un navegador web y se accede a las siguientes url (la primera s la estática, la segunda la dinámica):
 ```
-http://localhost:8888
-http://localhost:8888/hello/Juan
+http://localhost:8080
+http://localhost:8080/hello/Juan
 ```
 
 Las imágenes siguientes muestran las ventanas del navegador para las dos peticiones y el log de salida del servidor:
