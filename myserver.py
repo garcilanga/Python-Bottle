@@ -1,9 +1,8 @@
-from bottle import route, run
+from bottle import route, run, template
 
-@route('/')
-app = application = bottle.default_app()@route('/hello/<name>')
-def greet(name='Stranger'):
-    return '<h1>Hello %s, how are you?</h1>' % name
+@route('/hello/<name>')
+def index(name):
+    return template('<b>Hello {{name}}</b>!', name=name)
 
-if __name__ == '__main__':
-    run(host='localhost', port=8888, debug=True)
+run(host='localhost', port=8080)
+
