@@ -74,6 +74,9 @@ La aplicación enrutará dos url's, una estática y otra dinámica en la que se 
 En primer lugar hay que crear el fichero python con la lógica del servidor y el enrutamiento. Por ejemplo _myserver.py_:
 
 ```
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+
 from bottle import route, run
 
 @route('/')
